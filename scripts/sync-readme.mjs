@@ -12,9 +12,11 @@ const checkOnly = process.argv.includes("--check");
 function toRepositoryReadme(source) {
   return source
     .replace("中文 | [English](en/)", "中文 | [English](docs/en/README.md)")
-    .replace(/\]\((assets|threads|templates)\//g, "](docs/$1/")
+    .replace(/\]\((assets|threads|templates|reference)\//g, "](docs/$1/")
+    .replace(/src="\.\/assets\//g, 'src="./docs/assets/')
+    .replace(/href="\.\/downloads\//g, 'href="./docs/public/downloads/')
     .replace(/\]\(projects\.md\)/g, "](docs/projects.md)")
-    .replace(/href="\.\/(threads\/[^\"]+|projects)"/g, (_match, path) =>
+    .replace(/href="\.\/(threads\/[^\"]+|templates\/[^\"]+|projects)"/g, (_match, path) =>
       `href="./docs/${path}.md"`,
     );
 }

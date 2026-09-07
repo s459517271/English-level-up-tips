@@ -1,155 +1,204 @@
 ---
-title: "Learning English with AI: Choose by Task"
-description: Use guided learning, project context, source material, output feedback, and a local learning-state file without betting on one provider.
-updated: 2026-08-16
+title: "Learning English with AI: From Practice to Real Delivery"
+description: Use English baselines, authentic material, guided practice, four-skill feedback, and delayed retesting instead of outsourcing English ability to one AI product.
+updated: 2026-09-02
+sources_checked: 2026-08-24
 ---
 
-# Learning English with AI: Choose by Task
+# Learning English with AI: From Practice to Real Delivery
 
-AI can reduce time spent finding material, creating practice, and receiving preliminary feedback. It cannot perform your retrieval, listening discrimination, articulatory movement, judgment, or real communication. Choose a task before a brand.
+AI can shorten the time needed to find material, create exercises, and receive first-pass feedback. It cannot perform your retrieval, listening discrimination, articulatory movement, judgment, or real communication. This chapter asks one question: **how can AI enter English practice without becoming a substitute for English ability?**
 
-> Verified **2026-08-16**. Availability changes by region, age, language, device, account, and plan; check the linked official page before use.
+The site-wide loop of problem, baseline, practice, delivery, verification, and review is in [Learning Anything with AI](../part-3/1-ai-learning.md). This page keeps only the English-specific work.
 
-## Do Not Confuse Two Workspaces
+## Quick Overview
 
-### Guided learning: one instructional conversation
+- state the real situation and acceptance criteria before deciding where AI enters;
+- keep an unaided baseline, feedback, and delayed retest for each skill;
+- use AI for questions, hints, and parallel exercises without outsourcing retrieval or expression;
+- write the result into the [AI Learning Log](../../templates/ai-learning-log.md) and [90-Day Cycle Map](../../templates/90-day-cycle.md).
 
-Use it for scaffolded explanation, questions, hints, open tasks, quizzes, and knowledge checks. OpenAI describes ChatGPT Study Mode as step-by-step guidance with interactive prompts, scaffolded replies, and checks. It can be toggled and may behave inconsistently. Ask it to let you answer first, and do not treat every response as an authoritative lesson.
+> Product features were last checked on **24 August 2026**. Study, project, voice, and writing features vary by region, language, device, account, and plan; reopen the official pages and verify before use.
 
-### Projects: long-running context and artefacts
+## Define “Can Use English”
 
-Use projects for course material, goals, chat history, errors, and work. The ChatGPT Projects help page says projects keep chats, files, instructions, and project context together. **The same page explicitly states that Study Mode does not apply to Project conversations.** Do not assume placing one inside the other combines both capabilities.
+Do not start with hours or word counts. Write one real task first:
 
-A portable combination is:
+```text
+Scenario: I need to introduce an AI project in an English online meeting.
+Audience: Three overseas colleagues who do not know the technical details.
+Definition of done: Explain the problem, proposal, risks, and next action in three minutes; handle two follow-up questions; send a follow-up email under 150 words.
+Deadline: 2026-09-30.
+Evidence: Raw recording, transcript, question log, email draft, and revision.
+```
 
-1. maintain [Learning State](../../templates/learning-state.md) locally;
-2. keep permitted material and work in a project;
-3. open a separate guided-learning conversation when needed;
-4. write evidence, errors, and the next action back to the local file.
+A useful goal contains a situation, audience, action, acceptance criteria, deadline, and evidence location. AI can help you practise and check; it cannot define completion for you.
 
-Platform memory and accounts change. The local file is the transferable source of truth.
+## 1. Save a Baseline Before AI Enters
 
-## Divide Tools by Task
+Do not ask AI to translate, edit, or hint on the first attempt. Complete four 10–15 minute tasks on one topic:
 
-| Task | Possible capability | Boundary checked 2026-08-16 |
+1. **Listening**: hear a two-to-four-minute authentic clip and write the gist, three details, and one uncertainty;
+2. **Reading**: read one page and write a five-sentence summary plus one counterexample;
+3. **Speaking**: speak for two uninterrupted minutes and save the raw recording;
+4. **Writing**: write a 120–180-word work email without a dictionary or AI rewrite.
+
+Score task completion, comprehensibility, accuracy and range, organisation and fluency, and revision and transfer from 0 to 2. Store samples, reasons, and error evidence in the [English Diagnostic](../../templates/english-diagnostic.md). Without a baseline, you cannot tell whether AI improved ability or merely polished a product.
+
+## Four Skills and Their Evidence Cards
+
+| Skill | AI may assist with | Evidence kept after closing AI |
 | --- | --- | --- |
-| Guided learning and checks | ChatGPT Study Mode; Gemini guided learning, quizzes/flashcards | Sign-in required; some Gemini mobile features roll out gradually; OpenStax integration has US, English, age, and account restrictions |
-| Long-running context | ChatGPT Projects; Claude Projects | ChatGPT Projects cover free and paid accounts; Claude Projects cover all users, free accounts have up to five, enhanced RAG is paid |
-| Learning from your sources | NotebookLM; file-enabled projects | Return to the original page or paragraph; check rights and privacy before uploading |
-| Web research with citations | Perplexity or products with search and citations | A citation does not prove support; open the primary source |
-| Explanation and feedback | ChatGPT, Claude, Gemini | Fluent explanations can be wrong; use criteria and external verification |
-| Language polishing | DeepL Write or general models | Polishing can hide actual skill; keep the draft and explain changes |
-| Live speaking | Voice products such as Gemini Live or ChatGPT Voice | Recognition and pronunciation judgments can fail; availability varies |
+| Listening | Give one clue, mark timestamps, or create a parallel follow-up | First pass, six-layer error map, scaffold ladder, meaning reconstruction, and delayed transfer in the [Listening Evidence Card](../../templates/listening-audit.md) |
+| Reading | Compare paragraph marks, ask for source locations, and pose parallel-source questions | First pass, barrier map, claims/evidence, technical facts, and inference boundary in the [Reading Evidence Card](../../templates/reading-evidence.md) |
+| Speaking | Mark unclear segments and simulate follow-up questions | Raw recording, listener retelling, and repair in the [Speaking Evidence Card](../../templates/speaking-evidence.md) |
+| Writing | Flag layered issues in facts, structure, language, and tone | Draft, four revision passes, and reader feedback in the [Writing Evidence Card](../../templates/writing-evidence.md) |
 
-This is not a ranking. Consider sensitivity, task, language, feedback quality, and exportability.
+Cards are not extra homework. They turn one session into a sample you can revisit. If only AI comments remain, without your first take and transfer task, you cannot tell whether ability changed.
 
-## Build the Project
+Grammar is a structural layer shared by all four skills. AI may place an original beside parallel examples, ask about meaning differences, and generate variation, but feedback must distinguish **error, ambiguity, register choice, and style preference** and state confidence. Preserve your own decision in the [Grammar Evidence Card](../../templates/grammar-evidence.md). A smoother model sentence does not prove that the original was wrong.
 
-```text
-00-goal/            real task and acceptance criteria
-01-baseline/        samples untouched by AI
-02-materials/       permitted articles, transcripts, course material
-03-output/          recordings, drafts, revisions
-04-errors/          categories and minimal pairs
-learning-state.md   current facts and next action
+## 2. Use One Task Card Every Time
+
+```markdown
+# English Task Card
+
+Date: YYYY-MM-DD
+Real situation:
+Action: understand / read / say / write / ask / revise
+Acceptance criteria:
+Material and source:
+Unaided baseline location:
+AI may: prompt / question / correct / generate parallel tasks
+AI may not: answer for me / rewrite a whole section / invent a source
+Output location:
+Feedback evidence:
+Recurring error:
+Smallest next task:
 ```
 
-Project instruction:
+At the end choose one or two errors that most affect communication and do a parallel task. Do not collect fifteen suggestions without using them again.
+
+## 3. Vocabulary: From Familiarity to Retrieval in Real Tasks
+
+Choose 5–8 high-value chunks from authentic material each week. Preserve a no-lookup first encounter, then save current sense, pronunciation, part of speech, collocations, the original sentence, your own sentence, a close alternative, and one retrieval attempt. Decide whether each unknown should be skipped, inferred, looked up, learned deliberately, or professionally verified.
+
+AI can generate cloze, correction, and substitution tasks, but check meanings, collocations, and examples against a learner dictionary or real corpus. Schedule four contacts: understand and read aloud on day one, retrieve and make a sentence on day two, use it in speech or email within a week, and transfer it to a new situation after two weeks.
+
+The acceptance test is not “how many I saved”. It is whether you can use the chunk correctly without a cue and be understood.
+
+## 4. Listening: Split “I Didn’t Understand”
+
+First write only the gist and certain details without subtitles. Then label the problem:
+
+- unknown vocabulary;
+- known words hidden by linking, reduction, or stress;
+- sentence structure not parsed;
+- insufficient background knowledge;
+- speed, accent, or temporary attention failure.
+
+Ask AI for one small clue, then replay 10–20 seconds. Do not request a full translation immediately. Close the subtitles, paraphrase the clip, and record what remains uncertain.
+
+Give each pass a different question: preserve the no-caption first pass, locate timestamp and barrier layer, open only necessary transcript support, close the text and reconstruct gist, relationship, and next step, then remove support on parallel material after three to seven days. Use the [Listening Evidence Card](../../templates/listening-audit.md) for the complete record. AI can offer transcript candidates; it cannot overrule raw audio and a reliable source.
+
+## 5. Speaking and Pronunciation: Optimise Communication
+
+A 12-minute session:
+
+1. explain a real problem for two minutes without a script;
+2. ask AI to record only unclear points, broken logic, and places that need clarification;
+3. choose one high-impact pronunciation or chunk issue and repeat it slowly five times;
+4. answer an unprepared follow-up question;
+5. save the raw and retest recordings.
+
+Speech recognition is a clue, not proof of natural pronunciation. The stronger test is whether a trustworthy listener understands once, whether repetition is needed, and whether you can continue in a new question.
+
+Choose a reference variety related to the real audience, then add other English varieties gradually. Do not let a model turn "sounds different" automatically into "wrong". Use the [Speaking Evidence Card](../../templates/speaking-evidence.md) to preserve device, listener familiarity, recognition errors, listener retelling, and interaction repair, separating accentedness, actual misunderstanding, and comprehension effort.
+
+## 6. Reading: Train the Evidence Chain
+
+Before AI, mark claims, evidence, definitions, examples, and unknowns. Then ask AI to compare your marks and quote the original locations. Do not accept “the article basically says”.
+
+After closing the material answer: What problem is the author solving? Which evidence supports each conclusion? What is a counterexample? What survives if the setting changes to your work? This is how reading transfers into judgment.
+
+## 7. Writing: Keep the Author’s Hand
+
+Write the first draft yourself. Ask AI for layered feedback on facts and sources, task completion, structure and logic, language errors, tone, and privacy risk. Fix only the three changes that matter most and explain each one in your own words.
+
+Do not accept a whole rewritten paragraph by default. Keep the original, suggestions, final version, and a new similar email. If the final text is polished but you cannot explain the important edits, the ability is not stable yet.
+
+Use the [Writing Evidence Card](../../templates/writing-evidence.md) to record the fact and responsibility ledger, translation meaning changes, reasons for accepting or rejecting feedback, tool version, required disclosure, and a parallel task after closing the tool. A model may assist editing; it cannot become a hidden author. Fluency does not replace sources, permission, authorship, or final accountability.
+
+## 8. Choose Tools Without Confusing Functions
+
+| Task | Useful capability | Verify yourself |
+| --- | --- | --- |
+| Guided learning | Study mode, layered questions, quizzes | Does it let you answer first? Are explanations sourced? |
+| Long-running context | Project spaces and permitted files | Permissions, retention, memory scope, export |
+| Learning from sources | File questions, NotebookLM | Original page, rights, privacy, material boundaries |
+| Online research | Citation-enabled search | Open the primary page and check the claim |
+| Writing feedback | Language models and writing tools | Keep the draft and understand each change |
+| Speaking practice | Voice conversations | Recognition is not natural pronunciation; features change |
+
+This is not a ranking. Check upload permission, exportability, reviewability, and total cost first. Store goals, samples, errors, and next actions in [Learning State](../../templates/learning-state.md) or [AI Learning Log](../../templates/ai-learning-log.md). Platform memory is only a convenience layer.
+
+## 9. Feedback and Retesting
 
 ```text
-Act as an English practice reviewer. Let me attempt the task before providing a complete answer. Review task completion, comprehensibility, accuracy/range, organisation/fluency, and revision/transfer. Select only one to three high-impact problems, quote my wording, give one minimal contrast and one parallel exercise. State uncertainty and recommend a dictionary, corpus, or primary source when needed.
+Restate the task and acceptance criteria. Let me attempt it first.
+Separate feedback into task completion, comprehensibility, accuracy, organisation/fluency, vocabulary/grammar, pronunciation, and transfer.
+Choose only the one to three issues in each category that most affect the result, cite evidence, and mark confidence.
+Give one minimal hint and one parallel task. Do not complete the final answer.
 ```
 
-## Vocabulary
+On day 30 and week 12, retest with the same topic, similar time, and the same restrictions. Compare raw samples, not only AI-edited products. Progress means less prompting, fewer repeated errors, faster real-task completion, and transfer to a new setting.
 
-Use real material and target chunks instead of random daily lists.
+After each retest, write at least one result and the next variable into the [90-Day Cycle Map](../../templates/90-day-cycle.md) instead of leaving practice inside the chat window.
 
-```text
-Select eight chunks from this material that most affect comprehension or are likely to recur in my work. Explain the selection, then provide the current sense, pronunciation cue, collocation, source sentence, and one gap. Let me answer before showing answers. Flag anything that needs dictionary or corpus verification.
-```
+For the full change before and after AI and after transfer, use the [Evidence Chain Template](../../templates/evidence-chain.md) to keep the four time points together. The cycle map schedules the work; the evidence chain explains the result.
 
-Verify candidates, then use delayed retrieval and new-context production from the [Vocabulary chapter](2-vocabulary.md).
+For interview preparation, AI may simulate a recruiter, technical peer, or customer from a public job description, ask unfamiliar follow-ups after your first version, and classify errors. It must not invent experience, write a signed application or take-home explanation for concealed use, or feed covert answers into a real interview without permission. Use [Job-search English](8-job-search-english.md) and the [Job-search English Evidence Card](../../templates/interview-evidence.md) for the complete workflow.
 
-## Listening
+## 10. Seven Days, Thirty Days, Twelve Weeks
 
-1. Listen once without a transcript and record gist and detail.
-2. Mark missed time ranges on a second pass.
-3. Classify them as unknown language, known-but-not-heard, connected speech, attention, or background knowledge.
-4. Shadow difficult lines, close the transcript, and retell.
-5. Test transfer on parallel material one week later.
+### Seven days: one complete loop
 
-AI transcripts can be wrong. Compare important material with official captions or human review.
+- save at least one baseline sample;
+- complete three sessions with the task card;
+- keep raw output, feedback, and one parallel task each time;
+- record one error that most affects communication.
 
-## Speaking and Pronunciation
+### Thirty days: an error library
 
-```text
-Run a six-turn [scenario] conversation. Say only one or two sentences per turn and wait. At the end, review task completion, comprehensibility, pauses, chunks, and one high-impact pronunciation feature. Quote transcript evidence. If speech recognition is insufficient for a pronunciation judgment, say so.
-```
+- complete at least four similar real tasks;
+- classify vocabulary, listening, syntax, organisation, pronunciation, and transfer errors;
+- compare first attempts and retests rather than treating rewriting as growth;
+- remove tool steps that do not improve the result.
 
-Keep the first recording, transcript, feedback, and second take. Successful recognition does not prove natural pronunciation, and failed recognition does not prove an error.
+### Twelve weeks: a real English delivery
 
-## Reading
+- complete a meeting, presentation, email, document, or cross-cultural collaboration task;
+- keep recording, transcript, feedback, revision, and retest;
+- ask a real audience whether the message was understood and the next step was clear;
+- write the result back into the [English Diagnostic](../../templates/english-diagnostic.md).
 
-Read first, then ask AI to coach:
+## Privacy, Copyright, and Official Sources
 
-```text
-Do not summarise first. Ask me for the author's claim, key evidence, implicit assumption, and one counterexample. Follow up from my answers. Finally mark each statement as supported by the text, reasonable inference, or unsupported, with paragraph evidence. Say when evidence is absent.
-```
+Do not upload customer, colleague, student, child, medical, identity, or unpublished contract data to an unapproved tool. Public comments and pages can still contain personal data; consider permission, minimum necessary scope, and retention. Use copyrighted material only within your rights and preserve source and licence records.
 
-Use primary material for research reading rather than asking a model to reconstruct a paper from memory.
-
-## Writing
-
-Keep an unaided draft, annotated version, and self-revised final.
-
-```text
-First judge whether this text serves [audience/purpose]. Do not rewrite it wholesale. Rank no more than five issues by impact; quote each passage, explain the effect, and give a minimal example. Separate factual, structural, and language issues. Ask me to rewrite the weakest paragraph before reviewing version two.
-```
-
-If you cannot explain a change, it has not become your skill.
-
-## When Feedback Is Unreliable
-
-- require quoted evidence or sources for judgments;
-- check high-risk language with dictionaries, corpora, teachers, or audiences;
-- allow “I am uncertain” as an answer;
-- do not ask AI to judge personality, intelligence, or medical state;
-- complete regular unaided samples so assistance is not mistaken for ability.
-
-## Privacy and Copyright
-
-Do not upload unauthorised course material, company secrets, customer data, student records, children's data, private recordings, or third-party photographs. Removing a name may not anonymise content. Prefer local processing or the smallest necessary excerpt for sensitive material. Before sharing a project, inspect members, link permissions, files, and chat history.
-
-## Seven Days, Thirty Days, Twelve Weeks
-
-### Seven days
-
-- create local state and one unaided baseline;
-- complete the three most important tasks across vocabulary and four skills;
-- preserve `raw output → feedback → second version`;
-- on day seven, ask whether AI caused more output or merely more reading.
-
-### Thirty days
-
-- build minimal contrasts and parallel practice for recurring errors;
-- complete at least one unaided task each week;
-- delete unsupported, duplicated, or over-broad feedback;
-- repeat the baseline conditions on day thirty.
-
-### Twelve weeks
-
-- use a real meeting, presentation, article, exam, or collaboration as the final task;
-- gradually reduce hints and rewriting;
-- conduct human fact, source, privacy, and language review;
-- export state and work so learning survives the product.
-
-## Official Sources
-
-- OpenAI: [Introducing Study Mode](https://openai.com/index/chatgpt-study-mode/); [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt)
-- Google: [Use learning tools in Gemini Apps](https://support.google.com/gemini/answer/16448384); [Create quizzes and flashcards](https://support.google.com/gemini/answer/16275879); [Gemini Live](https://support.google.com/gemini/answer/15274899)
+- OpenAI: [Study Mode](https://openai.com/zh-Hans-CN/index/chatgpt-study-mode/); [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects)
+- Google: [Learning tools in Gemini](https://support.google.com/gemini/answer/16448384); [Quizzes and flashcards](https://support.google.com/gemini/answer/16275879); [Gemini Live](https://support.google.com/gemini/answer/15274899)
 - Anthropic: [What are projects?](https://support.claude.com/en/articles/9517075-what-are-projects)
 - Google: [NotebookLM](https://notebooklm.google/)
 - Perplexity: [Help Center](https://www.perplexity.ai/help-center/)
 - DeepL: [DeepL Write](https://www.deepl.com/write)
 
-Previous: [Writing](6-writing.md) | Next: [Learning Anything with AI](../part-3/1-ai-learning.md)
+These pages document product functions, not rankings or outcome guarantees. Last checked: 24 August 2026; verify features, regions, and plans again before use.
+
+## Closing: After the Tool Leaves
+
+AI can quickly produce fluent sentences, patient explanations, and apparently complete answers. English ability does not live in the chat window. It lives in what remains after the tool closes: whether you can still hear the important meaning, explain it in your own words, and continue thinking when another person asks a question.
+
+Let AI expose a blind spot, generate practice, and offer feedback, then arrange for it to leave. Each departure is a small receding tide. The parts held up by the tool become visible, and so do the parts that belong to you. If the meaning disappears with the window, the practice is not complete.
+
+The goal is not to make yourself more like a model. It is to form your own voice inside limited vocabulary, real hesitation, and judgments for which you remain responsible. When the tool leaves and you still know what you mean, AI has amplified your ability instead of occupying it.
